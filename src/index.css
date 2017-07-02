@@ -18,3 +18,12 @@ body {
 		justify-content: space-between;
 	}
 }
+
+@media (max-width:600px) {
+	.imgSection {
+		padding-right: 80px;
+		padding-left: 80px;
+		padding-bottom: 50px;
+	}
+
+}
