@@ -175,7 +175,17 @@ class App extends Component {
 
           </div>
 
-          <div className="contact" style={{height:"200px"}}>
+          <div className="footer" style={{padding:"30px"}}>
+      
+            <div className="navBar" style={{color:"#666666", display:"flex", justifyContent:"center"}}>
+              <a style={{margin:"0px 10px 15px 10px", fontSize:"18px"}}>About</a>
+              <a style={{margin:"0px 10px 15px 10px", fontSize:"18px"}}>Projects</a>
+              <a style={{margin:"0px 10px 15px 10px", fontSize:"18px"}}>Experience</a>
+              <a style={{margin:"0px 10px 15px 10px", fontSize:"18px"}}>Contact</a>
+            </div>
+            <div className="email" style={{display:"flex", justifyContent:"center"}}>
+              <p style={{color:"#666666", fontSize:"18px"}}>ASAFAA32@GMAIL.COM</p>
+            </div>
           </div>
         </div>
       </div>
