@@ -204,11 +204,11 @@ class App extends Component {
                 <p style={{color:"#666666", fontSize:"18px"}}>Mishelanu is a social group for Israeli college students. Throughout the year, students attend a range of events from hikes and holiday dinners to regional retreats.</p>
                 <p style={{color:"#666666", fontSize:"18px"}}>Mishelanu was born from a need for an Israeli community on campus, which previously did not exist. We started with just 6 campuses, and had to build up our content from scratch. I&#39;m proud to say Mishelanu is now one of the fastest growing Jewish student organizations at over 100 campuses across the US.</p>
               
-                <div className="pressLinks">
+                {/*<div className="pressLinks">
                   <a href="http://www.jweekly.com/2016/03/11/young-israeli-americans-bond-over-dual-dueling-identities/"><img src="./JWeeklyLogo.jpg" style={{height:"18px", margin:"5px 30px 5px 0px"}}/></a>
                   <a href="http://www.huffingtonpost.com/adam-milstein/from-vision-to-action-fiv_b_10107220.html"><img src="./HuffingtonPostLogo.png" style={{height:"18px", margin:"5px 30px 5px 0px"}}/></a>
                   <a href="http://www.jpost.com/Diaspora/Creating-campus-Maccabees-389683"><img src="./JerusalemPostLogo.png" style={{height:"18px", margin:"5px 30px 5px 0px"}}/></a>     
-                </div>
+                </div>*/}
               </div>
             </div>
 
