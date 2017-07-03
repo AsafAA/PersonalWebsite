@@ -30,7 +30,7 @@ class App extends Component {
               <p style={{fontFamily:"Helvetica-Bold", color:"#555555", fontSize:"18px"}}>I&#39;m an engineer, entrepreneur, and ping pong enthusiast.</p>
               <p style={{color:"#666666", fontSize:"18px"}}>At a young age I moved from Israel to Silicon Valley for my father&#39;s startup, quickly inheriting the entrepreneurial bug and love for technology.</p>
               <p style={{color:"#666666", fontSize:"18px"}}>I studied Electrical Engineering and Computer Science at UC Berkeley, with a focus in graduating ASAP. On campus, I was involved in the hackathon community as director of the first Cal Hacks, and the Israeli community through my work in Mishelanu.</p>
-              <p style={{color:"#666666", fontSize:"18px"}}>I&#39;ve sinced picked up experience at amazing companies like Illumio, LinkedIn, and Microsoft, and currently spend my days exploring solutions in artificial intelligence.</p>
+              <p style={{color:"#666666", fontSize:"18px"}}>I&#39;ve since picked up experience at amazing companies like Illumio, LinkedIn, and Microsoft, and currently spend my days exploring solutions in artificial intelligence.</p>
               <div className="socialLinks" style={{display:"flex", justifyContent:"center"}}>
                 <a href="https://www.linkedin.com/in/asaf-avidan-antonir-95888558"><img src="./LinkedInSquare.png" style={{width:"40px", height:"40px", margin:"5px 15px 0px 15px", borderRadius:"4px"}}/></a>
                 <a href="https://www.facebook.com/asaf.avidanantonir"><img src="./FacebookIcon.png" style={{width:"40px", height:"40px", margin:"5px 15px 0px 15px", borderRadius:"4px"}}/></a>
@@ -87,11 +87,20 @@ class App extends Component {
 
           </div>
 
-          <div className="experience" style={{height:"500px", borderBottomStyle:"solid", borderBottomWidth:"1px", borderBottomColor:"#CCCCCC"}}>
-            
+          <div className="experience" style={{paddingTop:"50px", paddingBottom:"50px", borderBottomStyle:"solid", borderBottomWidth:"1px", borderBottomColor:"#CCCCCC"}}>
+            <h2 style={{margin:"0px", fontSize:"34px", color:"#333333"}}>EXPERIENCE</h2>
+
             <div className="role" style={{marginTop:"20px", marginBottom:"30px"}}>
-              <div className="rolePhotos" style={{flexBasis:"45%", display:"flex", alignItems:"center", marginTop:"15px", marginBottom:"15px"}}>
-                <Carousel showThumbs={false} interval={3000} autoPlay={true} infiniteLoop={true} dynamicHeight={false} showArrows={true} emulateTouch={true} showStatus={false}>
+
+              <div className="roleContent" style={{flexBasis:"55%"}}>
+                <h3 style={{fontSize:"24px", color:"#333333"}}>ILLUMIO</h3>
+                <p style={{fontFamily:"Helvetica-Bold", color:"#555555", fontSize:"18px"}}>Software Engineer - distributed systems team</p>
+                <p style={{color:"#666666", fontSize:"18px"}}>I worked on many projects, from the core security policy computation engine, to automating our command line interface, to enforcing consistency and versioning of our APIs.</p>
+                <p style={{color:"#666666", fontSize:"18px"}}>On the side, I ran Illumio&#39;s university hackathon efforts at Berkeley and Stanford, and organized the company&#39;s first <b><a style={{textDecoration:"none"}} href="https://www.illumio.com/blog/hackday-2016#gsc.tab=0">internal hackathon.</a></b></p>
+              </div>
+
+               <div className="rolePhotos" style={{flexBasis:"40%", display:"flex", alignItems:"center", marginTop:"15px", marginBottom:"15px"}}>
+                <Carousel showThumbs={false} dynamicHeight={false} showArrows={true} emulateTouch={true} showStatus={false}>
                   <div>
                         <img src="./AsafTreeHacks.jpg" />
                     </div>
@@ -107,18 +116,123 @@ class App extends Component {
 
                 </Carousel>
               </div>
-
-              <div className="roleContent" style={{flexBasis:"50%"}}>
-                <h3 style={{fontSize:"20px", color:"#333333"}}>Illumio</h3>
-                <p style={{fontFamily:"Helvetica-Bold", color:"#555555"}}>Software engineer - distributed systems team</p>
-                <p>When apple introduced 3d touch, I wanted to turn my iPhone into a functioning scale. When others&#39; attempts were rejected from the app store, I built a Flappy Bird like game that could be secretly used to do it.</p>
-                <p>After nearly a million video views and over 100,000 downloads in two days, I got a nice call from apple and the app and video had to go. Here is the video quietly re-uploaded!</p>
-              </div>
-              
             </div>
+
+            <div className="role" style={{marginTop:"20px", marginBottom:"30px"}}> 
+
+              <div className="roleContent" style={{flexBasis:"55%"}}>
+                <h3 style={{fontSize:"24px", color:"#333333"}}>OFEK</h3>
+                <p style={{fontFamily:"Helvetica-Bold", color:"#555555", fontSize:"18px"}}>Founder & Organizer</p>
+                <p style={{color:"#666666", fontSize:"18px"}}>IAC Ofek is a social/professional meetup group for young Israelis in Silicon Valley. Our events range from wine nights with keynote speakers to cooking workshops.</p>
+                <p style={{color:"#666666", fontSize:"18px"}}>After college, I wanted to find an Israeli community for people my age but had no luck. IAC Ofek was the solution!</p>
+              </div>
+
+              <div className="rolePhotos" style={{flexBasis:"40%", display:"flex", alignItems:"center", marginTop:"15px", marginBottom:"15px"}}>
+                <Carousel showThumbs={false} dynamicHeight={false} showArrows={true} emulateTouch={true} showStatus={false}>
+                  <div>
+                        <img src="./AsafTreeHacks.jpg" />
+                    </div>
+                    <div>
+                        <img src="./AsafTreeHacks.jpg" />
+                    </div>
+                    <div>
+                        <img src="./AsafTreeHacks.jpg" />
+                    </div>
+                    <div>
+                        <img src="./AsafTreeHacks.jpg" />
+                    </div>
+
+                </Carousel>
+              </div>
+            </div>
+
+            <div className="role" style={{marginTop:"20px", marginBottom:"30px"}}> 
+              <div className="roleContent" style={{}}>
+                <h3 style={{fontSize:"24px", color:"#333333"}}>MICROSOFT</h3>
+                <p style={{fontFamily:"Helvetica-Bold", color:"#555555", fontSize:"18px"}}>Software Engineering Intern</p>
+                <p style={{color:"#666666", fontSize:"18px"}}>Built a new transactional notification system for Microsoft&#39;s Commerce platform. Replaced two legacy email systems with a modern, RESTful API developed in C# on the .NET framework, using Azure web services.</p>
+              </div>
+            </div>
+
+            <div className="role" style={{marginTop:"20px", marginBottom:"30px"}}> 
+
+              <div className="roleContent" style={{}}>
+                <h3 style={{fontSize:"24px", color:"#333333"}}>LINKEDIN</h3>
+                <p style={{fontFamily:"Helvetica-Bold", color:"#555555", fontSize:"18px"}}>Software Engineering Intern</p>
+                <p style={{color:"#666666", fontSize:"18px"}}>Built the Applicant Analytics feature on the job posting page. This feature gives the viewer a sense of where he or she stands with respect to other applicants via distributions of seniority, education, skillsets, etc.</p>
+                <p style={{color:"#666666", fontSize:"18px"}}>Written in Scala on the Play framework, using Pinot database for realtime updates.</p>
+              </div>
+            </div>
+
+            <div className="role" style={{marginTop:"20px", marginBottom:"30px"}}> 
+
+              <div className="roleContent" style={{flexBasis:"55%"}}>
+                <h3 style={{fontSize:"24px", color:"#333333"}}>CAL HACKS</h3>
+                <p style={{fontFamily:"Helvetica-Bold", color:"#555555", fontSize:"18px"}}>Director - Sponsorship</p>
+                <p style={{color:"#666666", fontSize:"18px"}}>Cal Hacks is UC Berkeley’s iconic hackathon. From October 3–5, 2014, nearly 1500 hackers from over 50 schools attended what became the biggest collegiate hackathon of all time.</p>
+                <p style={{color:"#666666", fontSize:"18px"}}>I spent several months planning the event, focusing on fundraising and sponsor relations.</p>
+              </div>
+
+              <div className="rolePhotos" style={{flexBasis:"40%", display:"flex", alignItems:"center", marginTop:"15px", marginBottom:"15px"}}>
+                <Carousel showThumbs={false} dynamicHeight={false} showArrows={true} emulateTouch={true} showStatus={false}>
+                  <div>
+                      <img src="./AsafTreeHacks.jpg" />
+                  </div>
+                  <div>
+                      <img src="./AsafTreeHacks.jpg" />
+                  </div>
+                  <div>
+                      <img src="./AsafTreeHacks.jpg" />
+                  </div>
+                  <div>
+                      <img src="./AsafTreeHacks.jpg" />
+                  </div>
+                </Carousel>
+              </div>
+            </div>
+
+            
+
+            <div className="role" style={{marginTop:"20px", marginBottom:"30px"}}> 
+
+              <div className="roleContent" style={{flexBasis:"55%"}}>
+                <h3 style={{fontSize:"24px", color:"#333333"}}>MISHELANU</h3>
+                <p style={{fontFamily:"Helvetica-Bold", color:"#555555", fontSize:"18px"}}>Co-founder</p>
+                <p style={{color:"#666666", fontSize:"18px"}}>Mishelanu is a social group for Israeli college students. Throughout the year, students attend a range of events from hikes and holiday dinners to regional retreats.</p>
+                <p style={{color:"#666666", fontSize:"18px"}}>A few of us felt the need for an Israeli community on campus, but it did not exist, so Mishelanu was born. I&#39;m proud to say Mishelanu is now one of the fastest growing Jewish student organizations at over 100 campuses across the US.</p>
+              </div>
+
+              <div className="rolePhotos" style={{flexBasis:"40%", display:"flex", alignItems:"center", marginTop:"15px", marginBottom:"15px"}}>
+                <Carousel showThumbs={false} dynamicHeight={false} showArrows={true} emulateTouch={true} showStatus={false}>
+                  <div>
+                        <img src="./AsafTreeHacks.jpg" />
+                    </div>
+                    <div>
+                        <img src="./AsafTreeHacks.jpg" />
+                    </div>
+                    <div>
+                        <img src="./AsafTreeHacks.jpg" />
+                    </div>
+                    <div>
+                        <img src="./AsafTreeHacks.jpg" />
+                    </div>
+
+                </Carousel>
+              </div>
+            </div>
+
           </div>
 
-          <div className="contact" style={{height:"200px"}}>
+          <div className="footer" style={{padding:"30px"}}>
+            <div className="navBar" style={{color:"#666666", display:"flex", justifyContent:"center"}}>
+              <a style={{margin:"0px 10px 15px 10px", fontSize:"18px"}}>About</a>
+              <a style={{margin:"0px 10px 15px 10px", fontSize:"18px"}}>Projects</a>
+              <a style={{margin:"0px 10px 15px 10px", fontSize:"18px"}}>Experience</a>
+              <a style={{margin:"0px 10px 15px 10px", fontSize:"18px"}}>Contact</a>
+            </div>
+            <div className="email" style={{display:"flex", justifyContent:"center"}}>
+              <p style={{color:"#666666", fontSize:"18px"}}>ASAFAA32@GMAIL.COM</p>
+            </div>
           </div>
         </div>
       </div>
