@@ -91,139 +91,91 @@ class App extends Component {
             <h2 style={{margin:"0px", fontSize:"34px", color:"#333333"}}>EXPERIENCE</h2>
 
             <div className="role" style={{marginTop:"20px", marginBottom:"30px"}}>
+              <div className="rolePhotos" style={{flexBasis:"40%", display:"flex", alignItems:"center", marginTop:"15px", marginBottom:"15px"}}>
+                <Carousel showThumbs={false} dynamicHeight={false} showArrows={true} emulateTouch={true} showStatus={false}>
+                  <div>
+                        <img src="./AsafTreeHacks.jpg" />
+                    </div>
+                    <div>
+                        <img src="./AsafTreeHacks.jpg" />
+                    </div>
+                    <div>
+                        <img src="./AsafTreeHacks.jpg" />
+                    </div>
+                    <div>
+                        <img src="./AsafTreeHacks.jpg" />
+                    </div>
+
+                </Carousel>
+              </div>
 
               <div className="roleContent" style={{flexBasis:"55%"}}>
                 <h3 style={{fontSize:"24px", color:"#333333"}}>ILLUMIO</h3>
-                <p style={{fontFamily:"Helvetica-Bold", color:"#555555", fontSize:"18px"}}>Software Engineer - distributed systems team</p>
-                <p style={{color:"#666666", fontSize:"18px"}}>Worked on many projects, from the core security policy computation engine, to automating our command line interface, to enforcing consistency and versioning of our APIs.</p>
-                <p style={{color:"#666666", fontSize:"18px"}}>On the side, I ran Illumio&#39;s university hackathon efforts at Berkeley and Stanford, and organized the company&#39;s first <a style={{textDecoration:"none"}} href="https://www.illumio.com/blog/hackday-2016#gsc.tab=0">internal hackathon.</a></p>
-              </div>
-
-               <div className="rolePhotos" style={{flexBasis:"40%", display:"flex", alignItems:"center", marginTop:"15px", marginBottom:"15px"}}>
-                {/*<Carousel swipeScrollTolerance={0}  showThumbs={false} dynamicHeight={false} showArrows={true} emulateTouch={true} showStatus={false}>
-                  <div>
-                      <img src="./IllumioRole1b.jpg" />
-                  </div>
-                  <div>
-                      <img src="./IllumioRole2.jpg" />
-                  </div>
-                  <div>
-                      <img src="./IllumioRole3.jpg" />
-                  </div>
-                  <div>
-                      <img src="./IllumioRole4.jpg" />
-                  </div>
-
-                </Carousel>*/}
+                <p style={{fontFamily:"Helvetica-Bold", color:"#555555", fontSize:"18px"}}>Software engineer - distributed systems team</p>
+                <p style={{color:"#666666", fontSize:"18px"}}>I worked on many projects, from the core security policy computation engine, to automating our command line interface, to enforcing consistency and versioning of our APIs.</p>
+                <p style={{color:"#666666", fontSize:"18px"}}>On the side, I ran Illumio&#39;s university hackathon efforts at Berkeley and Stanford, and organized the company&#39;s first internal hackathon.</p>
               </div>
             </div>
 
-            <div className="role" style={{marginTop:"20px", marginBottom:"30px"}}> 
-              <div className="roleContent" style={{}}>
-                <h3 style={{fontSize:"24px", color:"#333333"}}>MICROSOFT</h3>
-                <p style={{fontFamily:"Helvetica-Bold", color:"#555555", fontSize:"18px"}}>Software Engineering Intern</p>
-                <p style={{color:"#666666", fontSize:"18px"}}>Built a new transactional notification system for Microsoft&#39;s Commerce platform. Replaced two legacy email systems with a modern, RESTful API developed in C# on the .NET framework, using Azure web services.</p>
-              </div>
-            </div>
-
-            <div className="role" style={{marginTop:"20px", marginBottom:"30px"}}> 
-
-              <div className="roleContent" style={{}}>
-                <h3 style={{fontSize:"24px", color:"#333333"}}>LINKEDIN</h3>
-                <p style={{fontFamily:"Helvetica-Bold", color:"#555555", fontSize:"18px"}}>Software Engineering Intern</p>
-                <p style={{color:"#666666", fontSize:"18px"}}>Built the Applicant Analytics feature on the job posting page. This feature gives the viewer a sense of where he or she stands with respect to other applicants via distributions of seniority, education, skillsets, etc.</p>
-                <p style={{color:"#666666", fontSize:"18px"}}>Written in Scala on the Play framework, using Pinot database for realtime updates.</p>
-              </div>
-            </div>
-
-            <div className="role" style={{marginTop:"20px", marginBottom:"30px"}}> 
+            <div className="role" style={{marginTop:"20px", marginBottom:"30px"}}>
+              
 
               <div className="roleContent" style={{flexBasis:"55%"}}>
-                <h3 style={{fontSize:"24px", color:"#333333"}}>OFEK</h3>
-                <p style={{fontFamily:"Helvetica-Bold", color:"#555555", fontSize:"18px"}}>Founder & Organizer</p>
-                <p style={{color:"#666666", fontSize:"18px"}}>IAC Ofek is a social/professional meetup group for young Israelis in Silicon Valley. Our events range from wine nights with keynote speakers to cooking workshops at the park.</p>
-                <p style={{color:"#666666", fontSize:"18px"}}>After college, I wanted to find an Israeli community for people my age but had no luck. IAC Ofek was the solution!</p>
+                <h3 style={{fontSize:"24px", color:"#333333"}}>ILLUMIO</h3>
+                <p style={{fontFamily:"Helvetica-Bold", color:"#555555", fontSize:"18px"}}>Software engineer - distributed systems team</p>
+                <p style={{color:"#666666", fontSize:"18px"}}>After nearly a million video views and over 100,000 downloads in two days, I got a nice call from apple and the app and video had to go. Here is the video quietly re-uploaded!</p>
+                <p style={{color:"#666666", fontSize:"18px"}}>After nearly a million video views and over 100,000 downloads in two days, I got a nice call from apple and the app and video had to go. Here is the video quietly re-uploaded!</p>
               </div>
 
-              <div swipeScrollTolerance={0} className="rolePhotos" style={{flexBasis:"40%", display:"flex", alignItems:"center", marginTop:"15px", marginBottom:"15px"}}>
-                {/*<Carousel showThumbs={false} dynamicHeight={false} showArrows={true} emulateTouch={true} showStatus={false}>
+              <div className="rolePhotos" style={{flexBasis:"40%", display:"flex", alignItems:"center", marginTop:"15px", marginBottom:"15px"}}>
+                <Carousel showThumbs={false} dynamicHeight={false} showArrows={true} emulateTouch={true} showStatus={false}>
                   <div>
-                      <img src="./OfekRole7b.jpg" />
-                  </div>
-                  <div>
-                      <img src="./OfekRole6.jpg" />
-                  </div>
-                  <div>
-                      <img src="./OfekRole4b.jpg" />
-                  </div>
+                        <img src="./AsafTreeHacks.jpg" />
+                    </div>
+                    <div>
+                        <img src="./AsafTreeHacks.jpg" />
+                    </div>
+                    <div>
+                        <img src="./AsafTreeHacks.jpg" />
+                    </div>
+                    <div>
+                        <img src="./AsafTreeHacks.jpg" />
+                    </div>
 
-                  <div>
-                      <img src="./OfekRole3b.jpg" />
-                  </div>
-                  <div>
-                      <img src="./OfekRole1.jpg" />
-                  </div>
-
-                  <div>
-                      <img src="./OfekRole2.jpg" />
-                  </div>
-                  <div>
-                      <img src="./OfekRole10.jpg" />
-                  </div>
-                  <div>
-                      <img src="./OfekRole11.jpg" />
-                  </div>
-                  <div>
-                      <img src="./OfekRole12.jpg" />
-                  </div>
-                </Carousel>*/}
+                </Carousel>
               </div>
             </div>
 
+            <div className="role" style={{marginTop:"20px", marginBottom:"30px"}}>
+              <div className="rolePhotos" style={{flexBasis:"40%", display:"flex", alignItems:"center", marginTop:"15px", marginBottom:"15px"}}>
+                <Carousel showThumbs={false} dynamicHeight={false} showArrows={true} emulateTouch={true} showStatus={false}>
+                  <div>
+                        <img src="./AsafTreeHacks.jpg" />
+                    </div>
+                    <div>
+                        <img src="./AsafTreeHacks.jpg" />
+                    </div>
+                    <div>
+                        <img src="./AsafTreeHacks.jpg" />
+                    </div>
+                    <div>
+                        <img src="./AsafTreeHacks.jpg" />
+                    </div>
 
-
-            <div className="role" style={{marginTop:"20px", marginBottom:"30px"}}> 
-
-              <div className="roleContent" style={{}}>
-                <h3 style={{fontSize:"24px", color:"#333333"}}>CAL HACKS</h3>
-                <p style={{fontFamily:"Helvetica-Bold", color:"#555555", fontSize:"18px"}}>Director - Sponsorship</p>
-                <p style={{color:"#666666", fontSize:"18px"}}>Cal Hacks is UC Berkeley’s iconic hackathon. From October 3–5, 2014, nearly 1500 hackers from over 50 schools attended what became the biggest collegiate hackathon of all time.</p>
-                <p style={{color:"#666666", fontSize:"18px"}}>Spent several months planning the event, focusing on fundraising and sponsor relations.</p>
+                </Carousel>
               </div>
 
-              
-            </div>
-
-            
-
-            <div className="role" style={{marginTop:"20px", marginBottom:"30px"}}> 
-
-              <div className="roleContent" style={{}}>
-                <h3 style={{fontSize:"24px", color:"#333333"}}>MISHELANU</h3>
-                <p style={{fontFamily:"Helvetica-Bold", color:"#555555", fontSize:"18px"}}>Founder - Cal Chapter</p>
-                <p style={{color:"#666666", fontSize:"18px"}}>Mishelanu is a social group for Israeli college students. Throughout the year, students attend a range of events from hikes and holiday dinners to regional retreats.</p>
-                <p style={{color:"#666666", fontSize:"18px"}}>Mishelanu was born from a need for an Israeli community on campus, which previously did not exist. We started with just 6 campuses, and had to build up our content from scratch. I&#39;m proud to say Mishelanu is now one of the fastest growing Jewish student organizations at over 100 campuses across the US.</p>
-              
-                {/*<div className="pressLinks">
-                  <a href="http://www.jweekly.com/2016/03/11/young-israeli-americans-bond-over-dual-dueling-identities/"><img src="./JWeeklyLogo.jpg" style={{height:"18px", margin:"5px 30px 5px 0px"}}/></a>
-                  <a href="http://www.huffingtonpost.com/adam-milstein/from-vision-to-action-fiv_b_10107220.html"><img src="./HuffingtonPostLogo.png" style={{height:"18px", margin:"5px 30px 5px 0px"}}/></a>
-                  <a href="http://www.jpost.com/Diaspora/Creating-campus-Maccabees-389683"><img src="./JerusalemPostLogo.png" style={{height:"18px", margin:"5px 30px 5px 0px"}}/></a>     
-                </div>*/}
+              <div className="roleContent" style={{flexBasis:"55%"}}>
+                <h3 style={{fontSize:"24px", color:"#333333"}}>ILLUMIO</h3>
+                <p style={{fontFamily:"Helvetica-Bold", color:"#555555", fontSize:"18px"}}>Software engineer - distributed systems team</p>
+                <p style={{color:"#666666", fontSize:"18px"}}>After nearly a million video views and over 100,000 downloads in two days, I got a nice call from apple and the app and video had to go. Here is the video quietly re-uploaded!</p>
+                <p style={{color:"#666666", fontSize:"18px"}}>After nearly a million video views and over 100,000 downloads in two days, I got a nice call from apple and the app and video had to go. Here is the video quietly re-uploaded!</p>
               </div>
             </div>
 
           </div>
 
-          <div className="footer" style={{padding:"30px"}}>
-            <div className="navBar" style={{color:"#666666", display:"flex", justifyContent:"center"}}>
-              <a style={{margin:"0px 10px 15px 10px", fontSize:"18px"}}>About</a>
-              <a style={{margin:"0px 10px 15px 10px", fontSize:"18px"}}>Projects</a>
-              <a style={{margin:"0px 10px 15px 10px", fontSize:"18px"}}>Experience</a>
-              <a style={{margin:"0px 10px 15px 10px", fontSize:"18px"}}>Contact</a>
-            </div>
-            <div className="email" style={{display:"flex", justifyContent:"center"}}>
-              <p style={{color:"#666666", fontSize:"18px"}}>ASAFAA32@GMAIL.COM</p>
-            </div>
+          <div className="footer" style={{height:"200px"}}>
           </div>
         </div>
       </div>
