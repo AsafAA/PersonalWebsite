@@ -91,7 +91,7 @@ class App extends Component {
             <h2 style={{margin:"0px", fontSize:"34px", color:"#333333"}}>EXPERIENCE</h2>
 
             <div className="role" style={{marginTop:"20px", marginBottom:"30px"}}>
-              <div className="rolePhotos" style={{flexBasis:"45%", display:"flex", alignItems:"center", marginTop:"15px", marginBottom:"15px"}}>
+              <div className="rolePhotos" style={{flexBasis:"40%", display:"flex", alignItems:"center", marginTop:"15px", marginBottom:"15px"}}>
                 <Carousel showThumbs={false} dynamicHeight={false} showArrows={true} emulateTouch={true} showStatus={false}>
                   <div>
                         <img src="./AsafTreeHacks.jpg" />
@@ -109,14 +109,41 @@ class App extends Component {
                 </Carousel>
               </div>
 
-              <div className="roleContent" style={{flexBasis:"50%"}}>
+              <div className="roleContent" style={{flexBasis:"55%"}}>
                 <h3 style={{fontSize:"24px", color:"#333333"}}>ILLUMIO</h3>
                 <p style={{fontFamily:"Helvetica-Bold", color:"#555555", fontSize:"18px"}}>Software engineer - distributed systems team</p>
-                <p style={{color:"#666666", fontSize:"18px"}}>When apple introduced 3d touch, I wanted to turn my iPhone into a functioning scale. When others&#39; attempts were rejected from the app store, I built a Flappy Bird like game that could be secretly used to do it.</p>
+                <p style={{color:"#666666", fontSize:"18px"}}></p>
                 <p style={{color:"#666666", fontSize:"18px"}}>After nearly a million video views and over 100,000 downloads in two days, I got a nice call from apple and the app and video had to go. Here is the video quietly re-uploaded!</p>
               </div>
-              
             </div>
+
+            <div className="role" style={{marginTop:"20px", marginBottom:"30px"}}>
+              <div className="rolePhotos" style={{flexBasis:"40%", display:"flex", alignItems:"center", marginTop:"15px", marginBottom:"15px"}}>
+                <Carousel showThumbs={false} dynamicHeight={false} showArrows={true} emulateTouch={true} showStatus={false}>
+                  <div>
+                        <img src="./AsafTreeHacks.jpg" />
+                    </div>
+                    <div>
+                        <img src="./AsafTreeHacks.jpg" />
+                    </div>
+                    <div>
+                        <img src="./AsafTreeHacks.jpg" />
+                    </div>
+                    <div>
+                        <img src="./AsafTreeHacks.jpg" />
+                    </div>
+
+                </Carousel>
+              </div>
+
+              <div className="roleContent" style={{flexBasis:"55%"}}>
+                <h3 style={{fontSize:"24px", color:"#333333"}}>ILLUMIO</h3>
+                <p style={{fontFamily:"Helvetica-Bold", color:"#555555", fontSize:"18px"}}>Software engineer - distributed systems team</p>
+                <p style={{color:"#666666", fontSize:"18px"}}></p>
+                <p style={{color:"#666666", fontSize:"18px"}}>After nearly a million video views and over 100,000 downloads in two days, I got a nice call from apple and the app and video had to go. Here is the video quietly re-uploaded!</p>
+              </div>
+            </div>
+
           </div>
 
           <div className="contact" style={{height:"200px"}}>
