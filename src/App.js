@@ -100,7 +100,7 @@ class App extends Component {
               </div>
 
                <div className="rolePhotos" style={{flexBasis:"40%", display:"flex", alignItems:"center", marginTop:"15px", marginBottom:"15px"}}>
-                <Carousel swipeScrollTolerance={-1000}  showThumbs={false} dynamicHeight={false} showArrows={true} emulateTouch={true} showStatus={false}>
+                <Carousel swipeScrollTolerance={0}  showThumbs={false} dynamicHeight={false} showArrows={true} emulateTouch={true} showStatus={false}>
                   <div>
                       <img src="./IllumioRole1b.jpg" />
                   </div>
@@ -146,7 +146,7 @@ class App extends Component {
               </div>
 
               <div swipeScrollTolerance={0} className="rolePhotos" style={{flexBasis:"40%", display:"flex", alignItems:"center", marginTop:"15px", marginBottom:"15px"}}>
-                <Carousel swipeScrollTolerance={-1000} showThumbs={false} dynamicHeight={false} showArrows={true} emulateTouch={true} showStatus={false}>
+                <Carousel swipeScrollTolerance={0} showThumbs={false} dynamicHeight={false} showArrows={true} emulateTouch={true} showStatus={false}>
                   <div>
                       <img src="./OfekRole7b.jpg" />
                   </div>

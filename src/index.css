@@ -4,7 +4,7 @@ body {
   font-family: sans-serif;
 }
 
-@media (min-width:600px) {
+@media (max-width:600px) {
 	.topCard {
 		display:flex; 
 		justify-content: space-between;
@@ -19,7 +19,7 @@ body {
 	}
 }
 
-@media (max-width:600px) {
+@media (min-width:600px) {
 	.imgSection {
 		padding-right: 60px;
 		padding-left: 60px;
