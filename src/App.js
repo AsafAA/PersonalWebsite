@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+var Carousel = require('react-responsive-carousel').Carousel;
+var x = require('react-responsive-carousel/lib/styles/carousel.css')
 
 class App extends Component {
   render() {
@@ -89,8 +91,23 @@ class App extends Component {
             
             <div className="role" style={{marginTop:"20px", marginBottom:"30px"}}>
               <div className="rolePhotos" style={{flexBasis:"45%", display:"flex", alignItems:"center", marginTop:"15px", marginBottom:"15px"}}>
+                <Carousel showThumbs={false} interval={3000} autoPlay={true} infiniteLoop={true} dynamicHeight={false} showArrows={true} emulateTouch={true} showStatus={false}>
+                  <div>
+                        <img src="./AsafTreeHacks.jpg" />
+                    </div>
+                    <div>
+                        <img src="./AsafTreeHacks.jpg" />
+                    </div>
+                    <div>
+                        <img src="./AsafTreeHacks.jpg" />
+                    </div>
+                    <div>
+                        <img src="./AsafTreeHacks.jpg" />
+                    </div>
+
+                </Carousel>
               </div>
-              
+
               <div className="roleContent" style={{flexBasis:"50%"}}>
                 <h3 style={{fontSize:"20px", color:"#333333"}}>Illumio</h3>
                 <p style={{fontFamily:"Helvetica-Bold", color:"#555555"}}>Software engineer - distributed systems team</p>
