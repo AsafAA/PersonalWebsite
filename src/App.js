@@ -59,7 +59,7 @@ class App extends Component {
               </div>
               <div className="projectVideo" style={{flexBasis:"45%", display:"flex", alignItems:"center", marginTop:"15px", marginBottom:"15px"}}>
                 <div className="iframeWrapper" style={{position:"relative", width:"100%", height:"0", paddingBottom:"56.25%"}}>
-                  <iframe allowFullScreen="allowfullscreen" style={{position:"absolute", top:0, left:0, width:"100%", height:"100%"}} frameBorder="0" src="https://www.youtube.com/embed/ixQuS6iPtK0?rel=0&showinfo=0&autohide=1"></iframe>
+                  <iframe allowFullScreen="allowfullscreen" style={{position:"absolute", top:0, left:0, width:"100%", height:"100%"}} frameBorder="0" src="https://www.youtube.com/embed/2HLE2yaLDrc?rel=0&showinfo=0&autohide=1"></iframe>
                 </div>
               </div>
             </div>
