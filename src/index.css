@@ -17,6 +17,9 @@ body {
 		display:flex; 
 		justify-content: space-between;
 	}
+	.header h1 {
+		font-size: 72px;
+	}
 }
 
 @media (max-width:600px) {
@@ -26,4 +29,7 @@ body {
 		padding-bottom: 50px;
 	}
 
+	.header h1 {
+		font-size: 13vw;
+	}
 }
