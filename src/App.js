@@ -17,10 +17,10 @@ class App extends Component {
             </div> 
 
             <div className="navBar" style={{color:"#666666", display:"flex", justifyContent:"center"}}>
-              <a style={{fontFamily:"Roboto", fontWeight:"300", margin:"0px 10px 15px 10px", fontSize:"18px", color:"#fdfdfd"}}>About</a>
-              <a style={{fontFamily:"Roboto", fontWeight:"300", margin:"0px 10px 15px 10px", fontSize:"18px", color:"#fdfdfd"}}>Projects</a>
-              <a style={{fontFamily:"Roboto", fontWeight:"300", margin:"0px 10px 15px 10px", fontSize:"18px", color:"#fdfdfd"}}>Experience</a>
-              <a style={{fontFamily:"Roboto", fontWeight:"300", margin:"0px 10px 15px 10px", fontSize:"18px", color:"#fdfdfd"}}>Contact</a>
+              <a href="#topCard" style={{textDecoration:"none", fontFamily:"Roboto", fontWeight:"300", margin:"0px 10px 15px 10px", fontSize:"18px", color:"#fdfdfd"}}>About</a>
+              <a href="#projects" style={{textDecoration:"none", fontFamily:"Roboto", fontWeight:"300", margin:"0px 10px 15px 10px", fontSize:"18px", color:"#fdfdfd"}}>Projects</a>
+              <a href="#experience" style={{textDecoration:"none", fontFamily:"Roboto", fontWeight:"300", margin:"0px 10px 15px 10px", fontSize:"18px", color:"#fdfdfd"}}>Experience</a>
+              <a href="#footer" style={{textDecoration:"none", fontFamily:"Roboto", fontWeight:"300", margin:"0px 10px 15px 10px", fontSize:"18px", color:"#fdfdfd"}}>Contact</a>
             </div>
           </div>
 
@@ -29,7 +29,7 @@ class App extends Component {
         <div className="body" style={{display:"flex", justifyContent:"center"}}>
 
           <div className="bodyWrapper" style={{width:"1000px", paddingLeft:"20px", paddingRight:"20px"}}>
-            <div className="topCard" style={{ borderBottomStyle:"solid", borderBottomWidth:"1px", borderBottomColor:"#CCCCCC", paddingTop:"50px", paddingBottom:"50px"}}>
+            <div id="topCard" className="topCard" style={{ borderBottomStyle:"solid", borderBottomWidth:"1px", borderBottomColor:"#CCCCCC", paddingTop:"50px", paddingBottom:"50px"}}>
               <div className="imgSection" style={{flexBasis:"35%", display:"flex", alignItems:"center"}}>
                 <img className="profilePicture" src="./AsafIllumio.jpg" style={{width:"100%", borderRadius:"50%"}}/>
               </div>
@@ -48,10 +48,10 @@ class App extends Component {
             </div>
 
           {/*TODO: turn these into components*/}
-            <div className="projects" style={{paddingTop:"50px", paddingBottom:"40px", borderBottomStyle:"solid", borderBottomWidth:"1px", borderBottomColor:"#CCCCCC"}}>
+            <div id="projects" className="projects" style={{paddingTop:"50px", paddingBottom:"40px", borderBottomStyle:"solid", borderBottomWidth:"1px", borderBottomColor:"#CCCCCC"}}>
               <h2 style={{fontFamily:"Amatic SC", fontWeight:"700", marginBottom:"35px", marginTop:"0px", fontSize:"50px", color:"#8e4380"}}>PROJECTS</h2>
 
-              <div className="project" style={{marginTop:"10px", marginBottom:"40px"}}>
+              <div className="project" style={{marginTop:"10px", marginBottom:"50px"}}>
                 <div className="projectContent" style={{flexBasis:"50%"}}>
                   <h3 style={{fontFamily:"Roboto", fontWeight:"300", margin:"0px", fontSize:"26px", color:"#333333"}}>STEADY SQUARE</h3>
                   <p style={{fontFamily:"Quicksand", fontWeight:"400",  color:"#555555", fontSize:"20px"}}>An app for weighing objects on your phone&#39;s screen.</p>
@@ -95,7 +95,7 @@ class App extends Component {
 
             </div>
 
-            <div className="experience" style={{paddingTop:"50px", paddingBottom:"50px"}}>
+            <div id="experience" className="experience" style={{paddingTop:"50px", paddingBottom:"20px"}}>
               <h2 style={{fontFamily:"Amatic SC", fontWeight:"700", margin:"0px", fontSize:"50px", color:"#ff8c0a"}}>EXPERIENCE</h2>
 
               <div className="role" style={{marginTop:"20px", marginBottom:"30px"}}>
@@ -221,20 +221,15 @@ class App extends Component {
           </div>
         </div>
 
-        <div className="footer" style={{backgroundColor:"#42b9f4"}}>
+        <div id="footer" className="footer" style={{backgroundColor:"#42b9f4"}}>
 
           <div className="footerWrapper" style={{display:"flex", justifyContent:"center", paddingLeft:"20px", paddingRight:"20px"}}>
-
-            <p style={{fontFamily:"Amatic SC", fontWeight:"700", color:"#fdfdfd", fontSize:"26px", marginBottom:"0px"}}>mail@asaf.io</p>
-            
+            <p style={{fontFamily:"Amatic SC", fontWeight:"700", color:"#fdfdfd", fontSize:"26px", marginBottom:"0px"}}>contact me - mail@asaf.io</p>
           </div>
 
           <div className="footerWrapper" style={{display:"flex", justifyContent:"center", paddingLeft:"20px", paddingRight:"20px"}}>
-
             <p style={{fontFamily:"Roboto", fontWeight:"300", color:"#fdfdfd", fontSize:"12px"}}>© 1993 - 2017</p>
-            
           </div>
-
           
         </div>
       </div>

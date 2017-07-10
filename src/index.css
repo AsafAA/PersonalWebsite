@@ -32,4 +32,8 @@ body {
 	.header h1 {
 		font-size: 13vw;
 	}
+
+	.experience {
+		padding-bottom: 0px;
+	}
 }
