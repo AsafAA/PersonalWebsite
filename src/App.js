@@ -37,8 +37,8 @@ class App extends Component {
                 <h1 style={{fontFamily:"Amatic SC", fontWeight:"700", margin:"0px", color:"#135296", fontSize:"42px"}}>HI, MY NAME IS ASAF.</h1>
                 <p style={{fontFamily:"Quicksand", fontWeight:"700",  color:"#555555", fontSize:"20px"}}>I&#39;m an engineer, entrepreneur, and ping pong enthusiast.</p>
                 <p style={{color:"#666666", fontSize:"18px"}}>At a young age I moved from Israel to Silicon Valley for my father&#39;s startup, quickly inheriting the entrepreneurial bug and love for technology.</p>
-                <p style={{fontWeight:"300", color:"#666666", fontSize:"18px"}}>I studied Electrical Engineering and Computer Science at UC Berkeley, with a focus in graduating ASAP. On campus, I was involved in the hackathon community as director of the first Cal Hacks, and the Israeli community through my work in Mishelanu.</p>
-                <p style={{fontWeight:"300", color:"#666666", fontSize:"18px"}}>I&#39;ve since picked up experience at amazing companies like Illumio, LinkedIn, and Microsoft, and currently spend my days exploring solutions in artificial intelligence.</p>
+                <p style={{fontWeight:"300", color:"#666666", fontSize:"18px"}}>I studied Electrical Engineering and Computer Science at UC Berkeley, where I was also involved in the hackathon community as director of the first Cal Hacks, and the Israeli community through my work in Mishelanu.</p>
+                <p style={{fontWeight:"300", color:"#666666", fontSize:"18px"}}>I&#39;ve picked up experience at amazing companies like Illumio, LinkedIn, and Microsoft, and currently spend my days exploring solutions in artificial intelligence.</p>
                 <div className="socialLinks" style={{display:"flex", justifyContent:"center"}}>
                   <a href="https://www.linkedin.com/in/asaf-avidan-antonir-95888558"><img src="./LinkedInSquare.png" style={{width:"40px", height:"40px", margin:"5px 15px 0px 15px", borderRadius:"4px"}}/></a>
                   <a href="https://www.facebook.com/asaf.avidanantonir"><img src="./FacebookIcon.png" style={{width:"40px", height:"40px", margin:"5px 15px 0px 15px", borderRadius:"4px"}}/></a>
@@ -228,7 +228,7 @@ class App extends Component {
           </div>
 
           <div className="footerWrapper" style={{display:"flex", justifyContent:"center", paddingLeft:"20px", paddingRight:"20px"}}>
-            <p style={{fontFamily:"Roboto", fontWeight:"300", color:"#fdfdfd", fontSize:"12px"}}>© 1993 - 2017</p>
+            <p style={{fontFamily:"Roboto", fontWeight:"300", color:"#fdfdfd", fontSize:"12px"}}>1993 - 2017</p>
           </div>
           
         </div>
