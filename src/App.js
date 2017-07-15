@@ -139,7 +139,7 @@ class App extends Component {
                 <div className="roleContent" style={{}}>
                   <h3 style={{fontSize:"26px", color:"#333333", fontFamily:"Roboto", fontWeight:"300"}}>LINKEDIN</h3>
                   <p style={{fontFamily:"Quicksand", fontWeight:"400", color:"#555555", fontSize:"20px"}}>Software Engineering Intern</p>
-                  <p style={{color:"#666666", fontSize:"18px"}}>Built the Applicant Analytics feature on the job posting page. This feature gives the viewer a sense of where he or she stands with respect to other applicants via distributions of seniority, education, skillsets, etc.</p>
+                  <p style={{color:"#666666", fontSize:"18px"}}>Built the <a style={{textDecoration:"none"}} href="http://www.socialmediatoday.com/social-business/linkedins-added-some-new-features-their-premium-offerings">Competitive Intelligence</a> feature on the job posting page. This feature gives the viewer a sense of where he or she stands with respect to other applicants via distributions of seniority, education, skillsets, etc.</p>
                   <p style={{color:"#666666", fontSize:"18px"}}>Written in Scala on the Play framework, using Pinot database for realtime updates.</p>
                 </div>
               </div>
