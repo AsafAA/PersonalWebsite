@@ -224,12 +224,11 @@ class App extends Component {
         <div id="footer" className="footer" style={{backgroundColor:"#42b9f4"}}>
 
           <div className="footerWrapper" style={{display:"flex", justifyContent:"center", paddingLeft:"20px", paddingRight:"20px"}}>
-            <p style={{fontFamily:"Amatic SC", fontWeight:"700", color:"#fdfdfd", fontSize:"26px", marginBottom:"0px"}}>contact me - mail@asaf.io</p>
+            {/* Adding small spaces around @ so email is harder to scrape */}
+            <p style={{fontFamily:"Amatic SC", fontWeight:"700", color:"#fdfdfd", fontSize:"26px"}}>contact me - mail<span style={{fontSize:"5px"}}> </span>@<span style={{fontSize:"5px"}}> </span>asaf.io</p>
           </div>
 
-          <div className="footerWrapper" style={{display:"flex", justifyContent:"center", paddingLeft:"20px", paddingRight:"20px"}}>
-            <p style={{fontFamily:"Roboto", fontWeight:"300", color:"#fdfdfd", fontSize:"12px"}}>1993 - 2017</p>
-          </div>
+          
           
         </div>
       </div>
