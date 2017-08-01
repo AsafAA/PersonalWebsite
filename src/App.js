@@ -102,7 +102,7 @@ class App extends Component {
 
                 <div className="roleContent" style={{flexBasis:"55%"}}>
                   <h3 style={{fontSize:"26px", color:"#333333", fontFamily:"Roboto", fontWeight:"300"}}>ILLUMIO</h3>
-                  <p style={{fontFamily:"Quicksand", fontWeight:"400", color:"#555555", fontSize:"20px"}}>Software Engineer - distributed systems team</p>
+                  <p style={{fontFamily:"Quicksand", fontWeight:"400", color:"#555555", fontSize:"20px"}}>Software Engineer</p>
                   <p style={{color:"#666666", fontSize:"18px"}}>Worked on projects ranging from the core security policy computation engine, to automating our command line interface, to enforcing consistency and versioning of our APIs.</p>
                   <p style={{color:"#666666", fontSize:"18px"}}>On the side, I ran Illumio&#39;s university hackathon efforts at Berkeley and Stanford, and organized the company&#39;s first <a style={{textDecoration:"none"}} href="https://www.illumio.com/blog/hackday-2016#gsc.tab=0">internal hackathon.</a></p>
                 </div>
@@ -225,7 +225,7 @@ class App extends Component {
 
           <div className="footerWrapper" style={{display:"flex", justifyContent:"center", paddingLeft:"20px", paddingRight:"20px"}}>
             {/* Adding small spaces around @ so email is harder to scrape */}
-            <p style={{fontFamily:"Amatic SC", fontWeight:"700", color:"#fdfdfd", fontSize:"26px"}}>contact me - mail<span style={{fontSize:"5px"}}> </span>@<span style={{fontSize:"5px"}}> </span>asaf.io</p>
+            <p style={{fontFamily:"Amatic SC", fontWeight:"700", color:"#fdfdfd", fontSize:"26px"}}>asaf.a.antonir<span style={{fontSize:"5px"}}> </span>@<span style={{fontSize:"5px"}}> </span>gmail.com</p>
           </div>
 
           
