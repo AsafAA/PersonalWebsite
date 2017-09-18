@@ -58,7 +58,7 @@ class App extends Component {
                   <h3 style={{fontFamily:"Amatic SC", fontWeight:"700", margin:"0px", fontSize:"36px", color:"#4f3a8e"}}>STEADY SQUARE</h3>
                   <p style={{fontFamily:"Quicksand", fontWeight:"400",  color:"#555555", fontSize:"20px"}}>An app for weighing objects on your phone&#39;s screen.</p>
                   <p style={{color:"#666666", fontSize:"18px"}}>When Apple introduced 3D Touch, I wanted to turn my iPhone into a functioning scale. When others&#39; attempts were rejected from the app store, I built a game that could be secretly used to do so.</p>
-                  <p style={{color:"#666666", fontSize:"18px"}}>After nearly a <b>million</b> video views and over 100,000 downloads in two days, I got a nice call from Apple and the app and video had to go. Here is the video quietly re-uploaded!</p>
+                  <p style={{color:"#666666", fontSize:"18px"}}>After nearly a million video views and over 100,000 downloads in two days, I got a nice call from Apple and the app and video had to go. Here is the video quietly re-uploaded!</p>
                   <div className="pressLinks">
                     <a href="http://www.businessinsider.com/how-to-turn-your-iphone-into-a-working-scale-2015-12"><img src="./BusinessInsiderLogo.png" style={{opacity:"0.8", height:"18px", margin:"5px 30px 5px 0px"}}/></a>
                     <a href="http://mashable.com/2015/12/12/5-cant-miss-apps-photomath-steady-square/#XnUd6XR8laq3"><img src="./MashableLogo.svg" style={{opacity:"0.8", height:"18px", margin:"5px 30px 5px 0px"}}/></a>
