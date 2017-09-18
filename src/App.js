@@ -144,8 +144,7 @@ class App extends Component {
 
                 <div className="roleContent" style={{}}>
                   <h3 style={{fontFamily:"Amatic SC", fontWeight:"700", margin:"0px", fontSize:"36px", color:"#0077B5"}}>LINKEDIN</h3>
-                  <p style={{color:"#666666", fontSize:"18px"}}>Built the <a style={{textDecoration:"none"}} href="http://www.socialmediatoday.com/social-business/linkedins-added-some-new-features-their-premium-offerings">Competitive Intelligence</a> feature on the job posting page. This feature gives the viewer a sense of where he or she stands with respect to other applicants via distributions of seniority, education, skillsets, etc.</p>
-                  <p style={{color:"#666666", fontSize:"18px"}}>Written in Scala on the Play framework, using Pinot database for realtime updates.</p>
+                  <p style={{color:"#666666", fontSize:"18px"}}>Built the <a style={{textDecoration:"none"}} href="http://www.socialmediatoday.com/social-business/linkedins-added-some-new-features-their-premium-offerings">Competitive Intelligence</a> feature on the job posting page. This feature gives the viewer a sense of where he or she stands with respect to other applicants via distributions of seniority, education, skillsets, etc. Written in Scala on the Play framework.</p>
                 </div>
               </div>
 
