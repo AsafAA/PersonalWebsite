@@ -46,14 +46,27 @@ class App extends Component {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+
+        <div className="header" style={{display:"flex", backgroundColor:"#8e4380", justifyContent:"center"}}>
+          <div className="headerWrapper" style={{width:"1000px", paddingLeft:"20px", paddingRight:"20px"}}>
+            <div className="headerTitle" style={{display:"flex", justifyContent:"center"}}>
+              <h1 style={{fontFamily:"Amatic SC", fontWeight:"700", margin:"30px 0px 20px 0px", color:"#fdfdfd"}}>PROJECTS</h1>
+            </div> 
+          </div>
+        </div>
+
+        <div className="body" style={{display:"flex", justifyContent:"center"}}>
+
+          <div className="bodyWrapper" style={{width:"1000px", paddingLeft:"20px", paddingRight:"20px"}}>
 
           {/*TODO: turn these into components*/}
             <div id="projects" className="projects" style={{paddingTop:"50px", paddingBottom:"40px", borderBottomStyle:"solid", borderBottomWidth:"1px", borderBottomColor:"#CCCCCC"}}>
-              <h2 style={{fontFamily:"Amatic SC", fontWeight:"700", marginBottom:"35px", marginTop:"0px", fontSize:"50px", color:"#8e4380"}}>PROJECTS</h2>
 
               <div className="project" style={{marginTop:"10px", marginBottom:"50px"}}>
                 <div className="projectContent" style={{flexBasis:"50%"}}>
-                  <h3 style={{fontFamily:"Roboto", fontWeight:"300", margin:"0px", fontSize:"26px", color:"#333333"}}>STEADY SQUARE</h3>
+                  <h3 style={{fontFamily:"Amatic SC", fontWeight:"700", margin:"0px", fontSize:"30px", color:"#8e4380"}}>STEADY SQUARE</h3>
                   <p style={{fontFamily:"Quicksand", fontWeight:"400",  color:"#555555", fontSize:"20px"}}>An app for weighing objects on your phone&#39;s screen.</p>
                   <p style={{color:"#666666", fontSize:"18px"}}>When Apple introduced 3D Touch, I wanted to turn my iPhone into a functioning scale. When others&#39; attempts were rejected from the app store, I built a game that could be secretly used to do so.</p>
                   <p style={{color:"#666666", fontSize:"18px"}}>After nearly a <b>million</b> video views and over 100,000 downloads in two days, I got a nice call from Apple and the app and video had to go. Here is the video quietly re-uploaded!</p>
@@ -94,6 +107,12 @@ class App extends Component {
               </div>
 
             </div>
+          </div>
+        </div>
+
+        <div className="body" style={{display:"flex", justifyContent:"center"}}>
+
+          <div className="bodyWrapper" style={{width:"1000px", paddingLeft:"20px", paddingRight:"20px"}}>
 
             <div id="experience" className="experience" style={{paddingTop:"50px", paddingBottom:"20px"}}>
               <h2 style={{fontFamily:"Amatic SC", fontWeight:"700", margin:"0px", fontSize:"50px", color:"#ff8c0a"}}>EXPERIENCE</h2>
