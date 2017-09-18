@@ -37,7 +37,7 @@ class App extends Component {
                 <h1 style={{fontFamily:"Amatic SC", fontWeight:"700", margin:"0px", color:"#135296", fontSize:"42px"}}>HI, MY NAME IS ASAF.</h1>
                 <p style={{fontFamily:"Quicksand", fontWeight:"700",  color:"#555555", fontSize:"20px"}}>I&#39;m an engineer, entrepreneur, and ping pong enthusiast.</p>
                 <p style={{fontWeight:"300", color:"#666666", fontSize:"18px"}}>At a young age I moved from Israel to Silicon Valley for my father&#39;s startup, quickly inheriting the entrepreneurial bug and love for technology.</p>
-                <p style={{fontWeight:"300", color:"#666666", fontSize:"18px"}}>I studied Electrical Engineering and Computer Science at UC Berkeley, where I was also involved in the hackathon community as director of the first Cal Hacks, and the Israeli community through my work in Mishelanu.</p>
+                <p style={{fontWeight:"300", color:"#666666", fontSize:"18px"}}>I studied Electrical Engineering and Computer Science at UC Berkeley, where I was also involved in the hackathon community as director of the first Cal Hacks, and the Israeli community as founder of Mishelanu.</p>
                 <p style={{fontWeight:"300", color:"#666666", fontSize:"18px"}}>I&#39;ve picked up experience at amazing companies like Illumio, LinkedIn, and Microsoft, and currently spend my days exploring solutions in artificial intelligence.</p>
                 <div className="socialLinks" style={{display:"flex", justifyContent:"center"}}>
                   <a href="https://www.linkedin.com/in/asaf-avidan-antonir-95888558"><img src="./LinkedInSquare.png" style={{width:"40px", height:"40px", margin:"5px 15px 0px 15px", borderRadius:"4px"}}/></a>
@@ -49,11 +49,13 @@ class App extends Component {
 
           {/*TODO: turn these into components*/}
             <div id="projects" className="projects" style={{paddingTop:"50px", paddingBottom:"40px", borderBottomStyle:"solid", borderBottomWidth:"1px", borderBottomColor:"#CCCCCC"}}>
-              <h2 style={{fontFamily:"Amatic SC", fontWeight:"700", marginBottom:"35px", marginTop:"0px", fontSize:"50px", color:"#8e4380"}}>PROJECTS</h2>
+              <div className="sectionTitle" style={{display:"flex", justifyContent:"center"}}>
+                <h2 style={{fontFamily:"Amatic SC", fontWeight:"700", marginBottom:"35px", marginTop:"0px", fontSize:"60px", color:"#b05aa3"}}>PROJECTS</h2>
+              </div> 
 
               <div className="project" style={{marginTop:"10px", marginBottom:"50px"}}>
                 <div className="projectContent" style={{flexBasis:"50%"}}>
-                  <h3 style={{fontFamily:"Roboto", fontWeight:"300", margin:"0px", fontSize:"26px", color:"#333333"}}>STEADY SQUARE</h3>
+                  <h3 style={{fontFamily:"Amatic SC", fontWeight:"700", margin:"0px", fontSize:"36px", color:"#4f3a8e"}}>STEADY SQUARE</h3>
                   <p style={{fontFamily:"Quicksand", fontWeight:"400",  color:"#555555", fontSize:"20px"}}>An app for weighing objects on your phone&#39;s screen.</p>
                   <p style={{color:"#666666", fontSize:"18px"}}>When Apple introduced 3D Touch, I wanted to turn my iPhone into a functioning scale. When others&#39; attempts were rejected from the app store, I built a game that could be secretly used to do so.</p>
                   <p style={{color:"#666666", fontSize:"18px"}}>After nearly a <b>million</b> video views and over 100,000 downloads in two days, I got a nice call from Apple and the app and video had to go. Here is the video quietly re-uploaded!</p>
@@ -74,7 +76,7 @@ class App extends Component {
 
               <div className="project" style={{marginTop:"10px", marginBottom:"20px"}}>
                 <div classNAme="projectContent" style={{flexBasis:"50%"}}>
-                  <h3 style={{fontFamily:"Roboto", fontWeight:"300", margin:"0px", color:"#333333", fontSize:"26px"}}>DITTO KEYBOARD</h3>
+                  <h3 style={{fontFamily:"Amatic SC", fontWeight:"700", margin:"0px", fontSize:"36px", color:"#b05aa3"}}>DITTO KEYBOARD</h3>
                   <p style={{fontFamily:"Quicksand", fontWeight:"400", color:"#555555", fontSize:"20px"}}>A keyboard for sending commonly used text snippets.</p>
                   <p style={{color:"#666666", fontSize:"18px"}}>Whether it’s texting, dating, business, or just regular daily communication, we tend to repeat ourselves quite often.</p>
                   <p style={{color:"#666666", fontSize:"18px"}}>With Ditto, save your most commonly used texts, phrases, and templates, and access them easily from any app!</p>
@@ -96,12 +98,17 @@ class App extends Component {
             </div>
 
             <div id="experience" className="experience" style={{paddingTop:"50px", paddingBottom:"20px"}}>
-              <h2 style={{fontFamily:"Amatic SC", fontWeight:"700", margin:"0px", fontSize:"50px", color:"#ff8c0a"}}>EXPERIENCE</h2>
+
+              <div className="sectionTitle" style={{display:"flex", justifyContent:"center"}}>
+                <h2 style={{fontFamily:"Amatic SC", fontWeight:"700", margin:"0px", fontSize:"60px", color:"#f65314"}}>EXPERIENCE</h2>
+              </div> 
 
               <div className="role" style={{marginTop:"20px", marginBottom:"30px"}}>
 
                 <div className="roleContent" style={{flexBasis:"55%"}}>
-                  <h3 style={{fontSize:"26px", color:"#333333", fontFamily:"Roboto", fontWeight:"300"}}>ILLUMIO</h3>
+                  <a href="https://www.illumio.com/" style={{textDecoration:"none"}}>
+                    <h3 style={{fontFamily:"Amatic SC", fontWeight:"700", margin:"0px", fontSize:"36px", color:"#f5873d"}}>ILLUMIO</h3>
+                  </a>
                   <p style={{fontFamily:"Quicksand", fontWeight:"400", color:"#555555", fontSize:"20px"}}>Software Engineer</p>
                   <p style={{color:"#666666", fontSize:"18px"}}>Worked on projects ranging from the core security policy computation engine, to automating our command line interface, to enforcing consistency and versioning of our APIs.</p>
                   <p style={{color:"#666666", fontSize:"18px"}}>On the side, I ran Illumio&#39;s university hackathon efforts at Berkeley and Stanford, and organized the company&#39;s first <a style={{textDecoration:"none"}} href="https://www.illumio.com/blog/hackday-2016#gsc.tab=0">internal hackathon.</a></p>
@@ -128,8 +135,7 @@ class App extends Component {
 
               <div className="role" style={{marginTop:"20px", marginBottom:"30px"}}> 
                 <div className="roleContent" style={{}}>
-                  <h3 style={{fontSize:"26px", color:"#333333", fontFamily:"Roboto", fontWeight:"300"}}>MICROSOFT</h3>
-                  <p style={{fontFamily:"Quicksand", fontWeight:"400", color:"#555555", fontSize:"20px"}}>Software Engineering Intern</p>
+                  <h3 style={{fontFamily:"Amatic SC", fontWeight:"700", margin:"0px", fontSize:"36px", color:"#f65314"}}>MICROSOFT</h3>
                   <p style={{color:"#666666", fontSize:"18px"}}>Built a new transactional notification system for Microsoft&#39;s Commerce platform. Replaced two legacy email systems with a modern, RESTful API developed in C# on the .NET framework, using Azure web services.</p>
                 </div>
               </div>
@@ -137,8 +143,7 @@ class App extends Component {
               <div className="role" style={{marginTop:"20px", marginBottom:"30px"}}> 
 
                 <div className="roleContent" style={{}}>
-                  <h3 style={{fontSize:"26px", color:"#333333", fontFamily:"Roboto", fontWeight:"300"}}>LINKEDIN</h3>
-                  <p style={{fontFamily:"Quicksand", fontWeight:"400", color:"#555555", fontSize:"20px"}}>Software Engineering Intern</p>
+                  <h3 style={{fontFamily:"Amatic SC", fontWeight:"700", margin:"0px", fontSize:"36px", color:"#0077B5"}}>LINKEDIN</h3>
                   <p style={{color:"#666666", fontSize:"18px"}}>Built the <a style={{textDecoration:"none"}} href="http://www.socialmediatoday.com/social-business/linkedins-added-some-new-features-their-premium-offerings">Competitive Intelligence</a> feature on the job posting page. This feature gives the viewer a sense of where he or she stands with respect to other applicants via distributions of seniority, education, skillsets, etc.</p>
                   <p style={{color:"#666666", fontSize:"18px"}}>Written in Scala on the Play framework, using Pinot database for realtime updates.</p>
                 </div>
@@ -147,8 +152,10 @@ class App extends Component {
               <div className="role" style={{marginTop:"20px", marginBottom:"30px"}}> 
 
                 <div className="roleContent" style={{flexBasis:"55%"}}>
-                  <h3 style={{fontSize:"26px", color:"#333333", fontFamily:"Roboto", fontWeight:"300"}}>OFEK</h3>
-                  <p style={{fontFamily:"Quicksand", fontWeight:"400", color:"#555555", fontSize:"20px"}}>Founder & Organizer</p>
+                  <a href="https://www.israeliamerican.org/blog/iac-ofek-sunnyvale-ca" style={{textDecoration:"none"}}>
+                    <h3 style={{fontFamily:"Amatic SC", fontWeight:"700", margin:"0px", fontSize:"36px", color:"#d80606"}}>OFEK</h3>
+                  </a>
+                  <p style={{fontFamily:"Quicksand", fontWeight:"400", color:"#555555", fontSize:"20px"}}>Founder</p>
                   <p style={{color:"#666666", fontSize:"18px"}}>IAC Ofek is a social/professional meetup group for young Israelis in Silicon Valley. Our events range from wine nights with keynote speakers to cooking workshops at the park.</p>
                   <p style={{color:"#666666", fontSize:"18px"}}>After college, I wanted to find an Israeli community for people my age but had no luck. IAC Ofek was the solution!</p>
                 </div>
@@ -191,8 +198,10 @@ class App extends Component {
               <div className="role" style={{marginTop:"20px", marginBottom:"30px"}}> 
 
                 <div className="roleContent" style={{}}>
-                  <h3 style={{fontSize:"26px", color:"#333333", fontFamily:"Roboto", fontWeight:"300"}}>CAL HACKS</h3>
-                  <p style={{fontFamily:"Quicksand", fontWeight:"400", color:"#555555", fontSize:"20px"}}>Director - Sponsorship</p>
+                  <a href="https://www.calhacks.io" style={{textDecoration:"none"}}>
+                    <h3 style={{fontFamily:"Amatic SC", fontWeight:"700", margin:"0px", fontSize:"36px", color:"#f7b119"}}>CAL HACKS</h3>
+                  </a>
+                  <p style={{fontFamily:"Quicksand", fontWeight:"400", color:"#555555", fontSize:"20px"}}>Director</p>
                   <p style={{color:"#666666", fontSize:"18px"}}>Cal Hacks is UC Berkeley’s iconic hackathon. From October 3–5, 2014, nearly 1500 hackers from over 50 schools attended what became the biggest collegiate hackathon of all time.</p>
                   <p style={{color:"#666666", fontSize:"18px"}}>Spent several months planning the event, focusing on fundraising and sponsor relations.</p>
                 </div>
@@ -205,7 +214,9 @@ class App extends Component {
               <div className="role" style={{marginTop:"20px", marginBottom:"30px"}}> 
 
                 <div className="roleContent" style={{}}>
-                  <h3 style={{fontSize:"26px", color:"#333333", fontFamily:"Roboto", fontWeight:"300"}}>MISHELANU</h3>
+                  <a href="https://www.israeliamerican.org/programs/iac-mishelanu" style={{textDecoration:"none"}}>
+                    <h3 style={{fontFamily:"Amatic SC", fontWeight:"700", margin:"0px", fontSize:"36px", color:"#003ab8"}}>MISHELANU</h3>
+                  </a>
                   <p style={{fontFamily:"Quicksand", fontWeight:"400", color:"#555555", fontSize:"20px"}}>Founder - Cal Chapter</p>
                   <p style={{color:"#666666", fontSize:"18px"}}>Mishelanu is a social group for Israeli college students. Throughout the year, students attend a range of events from hikes and holiday dinners to regional retreats.</p>
                   <p style={{color:"#666666", fontSize:"18px"}}>Mishelanu was born from a need for an Israeli community on campus, which previously did not exist. We started with just 6 campuses, and had to build up our content from scratch. I&#39;m proud to say Mishelanu is now one of the fastest growing Jewish student organizations at over 100 campuses across the US.</p>
