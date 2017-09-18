@@ -61,9 +61,9 @@ class App extends Component {
                   <p style={{color:"#666666", fontSize:"18px"}}>After nearly a million video views and over 100,000 downloads in two days, I got a nice call from Apple and the app and video had to go. Here is the video quietly re-uploaded!</p>
                   <div className="pressLinks">
                     <a href="http://www.businessinsider.com/how-to-turn-your-iphone-into-a-working-scale-2015-12"><img src="./BusinessInsiderLogo.png" style={{opacity:"0.8", height:"18px", margin:"5px 30px 5px 0px"}}/></a>
-                    <a href="http://mashable.com/2015/12/12/5-cant-miss-apps-photomath-steady-square/#XnUd6XR8laq3"><img src="./MashableLogo.svg" style={{opacity:"0.8", height:"18px", margin:"5px 30px 5px 0px"}}/></a>
-                    <a href="https://thenextweb.com/apps/2015/12/11/redditor-bypasses-apple-guidelines-releases-flappy-bird-clone-for-weighing-oregano/#.tnw_qlQEbkNG"><img src="./NextWebLogo.png" style={{opacity:"0.8", height:"18px", margin:"5px 30px 5px 0px"}}/></a>
-                    <a href="https://www.theverge.com/2015/12/10/9888494/steady-square-ios-game-scale-3d-touch"><img src="./TheVergeLogo.png" style={{opacity:"0.8", height:"18px", margin:"5px 30px 5px 0px"}}/></a>                  
+                    <a href="http://mashable.com/2015/12/12/5-cant-miss-apps-photomath-steady-square/#XnUd6XR8laq3"><img src="./MashableLogo.svg" style={{opacity:"0.8", height:"16px", margin:"5px 30px 5px 0px"}}/></a>
+                    <a href="https://thenextweb.com/apps/2015/12/11/redditor-bypasses-apple-guidelines-releases-flappy-bird-clone-for-weighing-oregano/#.tnw_qlQEbkNG"><img src="./NextWebLogo.png" style={{opacity:"0.8", height:"16px", margin:"5px 30px 5px 0px"}}/></a>
+                    <a href="https://www.theverge.com/2015/12/10/9888494/steady-square-ios-game-scale-3d-touch"><img src="./TheVergeLogo.png" style={{opacity:"0.8", height:"16px", margin:"5px 30px 5px 0px"}}/></a>                  
                     <a href="http://lifehacker.com/steady-square-lets-you-weigh-things-with-your-iphone-6s-1747164070"><img src="./LifeHackerLogo.png" style={{opacity:"0.8", height:"18px", margin:"5px 30px 5px 0px"}}/></a>
                   </div>
                 </div>
