@@ -81,10 +81,10 @@ class App extends Component {
                   <p style={{color:"#666666", fontSize:"18px"}}>Whether it’s texting, dating, business, or just regular daily communication, we tend to repeat ourselves quite often.</p>
                   <p style={{color:"#666666", fontSize:"18px"}}>With Ditto, save your most commonly used texts, phrases, and templates, and access them easily from any app!</p>
                   <div className="pressLinks">
+                    <a href="https://www.yahoo.com/tech/7-awesome-paid-iphone-apps-free-downloads-now-145235184.html"><img src="./YahooLogo.png" style={{opacity:"0.8", height:"16px", margin:"5px 30px 5px 0px"}}/></a>
                     <a href="https://www.producthunt.com/posts/ditto-keyboard"><img src="./ProductHuntLogo.png" style={{opacity:"0.8", height:"18px", margin:"5px 30px 5px 0px"}}/></a>
-                    <a href="https://www.yahoo.com/tech/7-awesome-paid-iphone-apps-free-downloads-now-145235184.html"><img src="./YahooLogo.png" style={{opacity:"0.8", height:"18px", margin:"5px 30px 5px 0px"}}/></a>
-                    <a href="http://www.ilovefreesoftware.com/30/iphone/iphone-app-save-frequently-used-text-within-keyboard.html"><img src="./ILoveFreeSoftwareLogo2.png" style={{opacity:"0.8", height:"18px", margin:"5px 30px 5px 0px", borderRadius:"4px"}}/></a>
-                    <a href="http://pcweenies.com/2016/09/04/review-ditto-keyboard-for-ios/"><img src="./PCWeeniesLogo.jpg" style={{opacity:"0.8", height:"18px", margin:"5px 30px 5px 0px"}}/></a>
+                    <a href="http://www.ilovefreesoftware.com/30/iphone/iphone-app-save-frequently-used-text-within-keyboard.html"><img src="./ILoveFreeSoftwareLogo3.jpg" style={{opacity:"0.8", height:"18px", margin:"5px 30px 5px 0px", borderRadius:"4px"}}/></a>
+                    <a href="http://pcweenies.com/2016/09/04/review-ditto-keyboard-for-ios/"><img src="./PCWeeniesLogo2.jpg" style={{opacity:"0.8", height:"14px", margin:"5px 30px 5px 0px"}}/></a>
                   </div>
                 </div>
                 <div className="projectVideo" style={{flexBasis:"45%", display:"flex", alignItems:"center", marginTop:"15px", marginBottom:"15px"}}>
